@@ -11,8 +11,11 @@ GET http://localhost:8080/api/movies/search?genre=ACTION&rating=UA&offset=0&limi
 **Parameters:**
 
 genre – (optional) Movie genre (e.g., ACTION, COMEDY, DRAMA, etc.)
+
 rating – (optional) Movie rating (U, UA, A, S)
+
 offset – (default=0) Start index for pagination
+
 limit – (default=10) Maximum number of movies returned
 
 **Example curl command**
